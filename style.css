@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .main-home {
-    background: url(bg.jpg);
+    background: url(img/bg.jpg);
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ footer img {
 /* Veterinários */
 
 .main-veterinarios, .main-documentos, .main-meupet, .main-minhaconta{
-    background: url(bg2.jpg);
+    background: url(img/bg2.jpg);
 }
 
 form h2 {
@@ -183,6 +183,16 @@ fieldset select {
     border-width: 3px;
     margin-left: 70px;
     border: 3px solid #29a32c;
+}
+
+.dados {
+    width: 25%;
+    padding: 15px 15px;
+    margin: 0 0 20px;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-left: 70px;
+    border: 3px solid #29a32c; 
 }
 
 .editar {
