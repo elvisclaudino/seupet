@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Seu pet</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+                <img class="contato" src="contato.png" alt="">
+                <h1><img src="logo.png" alt=""></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="veterinarios.html">Veterinários</a> </li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="meupet.html">Meu pet</a></li>
+                    <li><a href="minhaconta.html">Minha conta</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-veterinarios">
+            <form>
+                <h2>Procure por veterináros</h2>
+                <fieldset>
+                    <legend>Selecione a espécie do seu animal:</legend>
+                    <select>
+                        <option>Felinos</option>
+                        <option>Canídeos</option>
+                        <option>Anfíbios</option>
+                        <option>Répteis</option>
+                    </select>
+
+                    <legend>Selecione o porte do seu animal:</legend>
+                    <select>
+                        <option>Pequeno: 5 a 10kg</option>
+                        <option>Médio: 10 a 20kg</option>
+                        <option>Grande: 20 a 30kg</option>
+                        <option>Gigante: 30kg ou mais </option>
+                    </select>
+
+                    <legend>Selecione o tipo de atendimento:</legend>
+                    <select>
+                        <option>Emergências 24H</option>
+                        <option>Nutrição</option>
+                        <option>Diagnóstico por imagem</option>
+                        <option>Acumpuntura</option>
+                        <option>Dermatologia</option>
+                        <option>Ortopedia</option>
+                    </select>
+
+                    <label for="cep">Indique o CEP da região de preferência:</label>
+                    <input type="text" id="cep" required placeholder="00000-000" class="input-padrao">
+
+                    <label for="data">Selecione a data de atendimento:</label>
+                    <input type="date" id="data" required class="input-padrao">
+
+                    <label for="hora">Selecione a hora do atendimento:</label>
+                    <input type="time" id="hora" required class="input-padrao">
+                </fieldset> 
+                
+                <input type="submit" value="Buscar" class="enviar">
+            </form>
+        </main>
+
+        <footer>
+            <img src="logo.png" alt="">
+            <p class="copyright">&copy; Copyright SeuPet - 2022</p>
+        </footer>
+    </body>
+
+</html>

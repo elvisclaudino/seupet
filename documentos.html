@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Seu pet</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+                <img class="contato" src="contato.png" alt="">
+                <h1><img src="logo.png" alt=""></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="veterinarios.html">Veterinários</a> </li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="meupet.html">Meu pet</a></li>
+                    <li><a href="minhaconta.html">Minha conta</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-documentos">
+            <form>
+                <h2>Descubra quais documentos seu Pet precisa e onde faze-los</h2>
+                <fieldset>
+                    <legend>Selecione a espécie do seu animal:</legend>
+                    <select>
+                        <option>Felinos</option>
+                        <option>Canídeos</option>
+                        <option>Anfíbios</option>
+                        <option>Répteis</option>
+                    </select>
+
+                    <label for="cep">Indique o CEP da região de preferência:</label>
+                    <input type="text" id="cep" required placeholder="00000-000" class="input-padrao">
+
+                    <label for="cep">Indique o destino de viagem:</label>
+                    <input type="text" id="cep" required placeholder="Argentina" class="input-padrao">
+                </fieldset>
+
+                <input type="submit" value="Buscar" class="enviar">
+            </form>
+        </main>
+
+        <footer>
+            <img src="logo.png" alt="">
+            <p class="copyright">&copy; Copyright SeuPet - 2022</p>
+        </footer>
+    </body>
+
+</html>
